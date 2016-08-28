@@ -1,4 +1,4 @@
 <?php
-print($UUID);
+print(" This is the album ID: $UUID");
 
 ?>
