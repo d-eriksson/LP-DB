@@ -68,7 +68,6 @@ $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
         print("</ol>");
         print ("</div>");
         print('<form class="form-horizontal" action="alter.php" method="post" enctype="multipart/form-data">');
-        print('<button id="singlebutton" name="singlebutton"  class="btn btn-primary" type="submit" value="$UUID">Alter Information</button>');
         print('</form>');
     }
  ?>
