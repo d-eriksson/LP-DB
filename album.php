@@ -67,6 +67,6 @@ $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
         }
         print("</ol>");
         print ("</div>");
-        print("<button id="singlebutton" name="singlebutton" formaction="alter.php" class="btn btn-primary" type="submit" value="$UUID">Alter Information</button>");
+        print("<button id="singlebutton" name="singlebutton" formaction="alter.php" class="btn btn-primary" type="submit" value=$UUID>Alter Information</button>");
     }
  ?>
