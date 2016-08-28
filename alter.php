@@ -1,5 +1,5 @@
 <?php
-$UUID = $row['AlbumID'];
+$UUID = $_GET['AlbumID'];
 print(" This is the album ID: $UUID");
 
 ?>
